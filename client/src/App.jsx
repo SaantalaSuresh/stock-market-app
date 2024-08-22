@@ -78,7 +78,7 @@ import SignUp from './pages/SignUp';
 import Profile from './pages/Profile';
 import Header from './components/Header';
 import PrivateRoute from './components/PrivateRoute';
-import WatchList from './pages/WatchList';
+import WatchList from './pages/Watchlist';
 
 export default function App() {
   return (
