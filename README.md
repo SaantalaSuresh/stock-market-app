@@ -1,6 +1,6 @@
 <h1 align="center" id="title">Stock Market Application Development</h1>
 
-<p align="center"><img src="https://stocks-market.onrender.com/" alt="project-image"></p>
+
 
 <p id="description">: Develop a comprehensive stock market application using the MERN (MongoDB Express.js React Node.js) stack or your choice. Your application should integrate with APIs like Alpha Vantage Novadax or any other suitable API to fetch real-time and historical stock market data.</p>
 
