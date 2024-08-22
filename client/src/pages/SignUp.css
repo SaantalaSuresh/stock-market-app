@@ -1,0 +1,278 @@
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+  }
+  
+  .signup-form {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #333;
+    font-weight: bold;
+    padding-bottom: 20px;
+  }
+  
+  .input-group {
+    position: relative;
+    margin-bottom: 1rem;
+  }
+  
+  .input-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #777;
+  }
+  
+  input {
+    width: 100%;
+    padding: 0.75rem;
+    padding-left: 2.5rem;
+    height: 34px;
+    margin-bottom: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #7c3aed;
+  }
+  
+  .signup-button, .google-button {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+  }
+  
+  .signup-button {
+    background-color: #7c3aed;
+    color: white;
+    margin-bottom: 1rem;
+  }
+  
+  .signup-button:hover {
+    background-color: #6d28d9;
+    transform: translateY(-2px);
+  }
+  
+  .google-button {
+    background-color: #7c3aed;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .google-button:hover {
+    background-color: #6d28d9;
+    transform: translateY(-2px);
+  }
+  
+  .google-icon {
+    margin-right: 0.5rem;
+  }
+  
+  p {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  a {
+    color: #7c3aed;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .error-message {
+    color: #ef4444;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.auth-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.auth-box h2 {
+    margin-bottom: 20px;
+    color: #333;
+    animation: slideIn 0.6s ease-in-out;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.auth-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.auth-box input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease;
+}
+
+.auth-box input:focus {
+    border-color: #6a5acd;
+    outline: none;
+}
+
+.auth-box button {
+    padding: 10px;
+    background-color: #6a5acd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 80%;
+    align-self: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.auth-box button:hover {
+    background-color: #5848c2;
+    transform: scale(1.05);
+}
+
+.google-btn {
+    background-color: #db4437;
+    width: 80%;
+    align-self: center;
+}
+
+.google-btn:hover {
+    background-color: #c33d2e;
+}
+
+.auth-box p {
+    color: #555;
+    margin-top: 10px;
+    animation: fadeIn 0.8s ease-in-out 0.2s;
+}
+
+.auth-box a {
+    color: #6a5acd;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.auth-box a:hover {
+    text-decoration: underline;
+    color: #5848c2;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 10px;
+    margin-left: 0;
+    animation: slideIn 0.6s ease-in-out 0.1s;
+}
+
+.input-group i {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888;
+    transition: color 0.3s ease;
+}
+
+.input-group input {
+    padding-left: 35px;
+}
+
+.input-group input:focus+i {
+    color: #6a5acd;
+}
+
+.auth-box button i {
+    margin-right: 5px;
+}
+
+.icon {
+    margin-right: 0;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 10px;
+    margin-left: 0;
+}
+
+.input-group i {
+    position: absolute;
+    left: 55px;
+    top: 38%;
+    transform: translateY(-50%);
+    color: #888;
+}
+
+.input-group input {
+    padding-left: 35px;
+}

@@ -1,0 +1,102 @@
+.watchlist-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.watchlist-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #333;
+}
+
+.btn-add-stock {
+  display: block;
+  margin: 0 auto 20px auto;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+}
+
+.btn-add-stock:hover {
+  background-color: #0056b3;
+}
+
+.empty-message {
+  text-align: center;
+  font-style: italic;
+  color: #666;
+}
+
+.stock-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.stock-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.stock-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.stock-name {
+  font-weight: bold;
+  color: #333;
+}
+
+.stock-symbol {
+  color: #555;
+}
+
+.stock-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.stock-actions .btn {
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+.stock-actions .btn-outline-warning {
+  color: #ffc107;
+  border-color: #ffc107;
+}
+
+.stock-actions .btn-outline-warning:hover {
+  background-color: #ffc107;
+  color: #fff;
+}
+
+.stock-actions .btn-outline-danger {
+  color: #dc3545;
+  border-color: #dc3545;
+  padding-left: 20px;
+}
+
+.stock-actions .btn-outline-danger:hover {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .stock-list {
+    flex-direction: column;
+  }
+}
